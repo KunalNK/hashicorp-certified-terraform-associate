@@ -7,9 +7,9 @@ resource "aws_instance" "web" {
   tags = {
     "Name" = "web-1"
   }
- /*
+
   lifecycle {
     create_before_destroy = true
   }
-*/
+
 }
